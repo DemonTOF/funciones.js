@@ -1,0 +1,22 @@
+const { despedir, multiplicarPorDos, esMayorDeEdad, multiplicar, saludarPersonalizado, calcularPotencia, restar, dividir, funcionMultiplicar, saludar, esPar, calcularArea, suma, fibonacci, factorial, potencia, saludarFlecha, multiplicarFlecha } = require("./funciones")
+// aqui se exportan las funciones de tu otro archivo js, se usa ctrl+space antes del parentesis de la funcion
+
+
+despedir()
+console.log(multiplicarPorDos(5))  
+console.log(esMayorDeEdad(27))
+console.log(multiplicar(2,3))
+saludarPersonalizado("santiago","ozuna")
+console.log(calcularPotencia(2,3))
+console.log(restar(4,2))
+console.log(dividir(4,2))
+console.log(funcionMultiplicar(2,7))
+saludar("santi")
+console.log(esPar(8))
+console.log(calcularArea(10))
+console.log(suma(3))
+console.log(fibonacci(6))
+console.log(factorial(3))
+console.log(potencia(2,3))
+console.log(saludarFlecha("santiago"))
+console.log(multiplicarFlecha(4,5))
